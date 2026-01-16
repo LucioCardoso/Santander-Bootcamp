@@ -1,0 +1,1 @@
+# Arquivos para criação de Banco de Dados para Pokemon TCG

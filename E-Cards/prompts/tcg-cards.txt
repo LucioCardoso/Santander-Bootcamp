@@ -1,0 +1,28 @@
+[action]
+create a script to create a table in postgresql
+[context]
+- the first table is a table to save a pokemon tcg card
+- the second table is a table to save collections set
+
+connect tables with a FOREIGN KEY
+
+[information]
+first table (tbl_cards):
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damage
+- weakness
+- resistance
+- retreat
+- cardNumberInCollection
+
+the second table (tbl_collections):
+- id
+- collectionSetName
+- releaseDate
+- totalCardsInCollection
